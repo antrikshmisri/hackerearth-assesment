@@ -17,7 +17,7 @@ npm install && cd frontend && npm install && cd ..
 Create a file named `.env` in the root directory of the project.
 Add the following lines to the file:
 ```
-DATABASE_URL=mongodb://localhost:27017/imagedb
+DATABASE_URI=mongodb://localhost:27017/imagedb
 ```
 
 ### Run the app
