@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { postImage } from "../services/ImageService";
 import notify from "../utils/toast";
 import { AiFillPlusCircle, AiFillBackward } from "react-icons/ai";
-import Input from "./Input";
-import Button from "./Button";
+import Input from "./input/Input";
+import Button from "./button/Button";
 import { useImageContext } from "../contexts/ImageContext";
 
 const AddForm = () => {

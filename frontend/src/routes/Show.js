@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 import { Container, Col, Row, Image } from "react-bootstrap";
 import { getImageById } from "../services/ImageService";
-import Button from "../components/Button";
+import Button from "../components/button/Button";
 import { AiFillBackward } from "react-icons/ai";
 
 const Show = () => {

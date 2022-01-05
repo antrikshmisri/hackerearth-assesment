@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container } from "react-bootstrap";
-import Card from "../components/Card";
+import Card from "../components/card/Card";
 
 import ReactPaginate from "react-paginate";
 import { useNavigate } from "react-router-dom";

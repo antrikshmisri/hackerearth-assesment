@@ -5,6 +5,7 @@ const Button = ({ text, icon, onClick, color, style }) => {
 
   return (
     <button
+      data-testid="button"
       onClick={onClick}
       style={{ backgroundColor: color, ...style }}
       onMouseEnter={() => {

@@ -4,8 +4,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { updateImage } from "../services/ImageService";
 import notify from "../utils/toast";
 import { AiFillSave, AiFillBackward } from "react-icons/ai";
-import Input from "./Input";
-import Button from "./Button";
+import Input from "./input/Input";
+import Button from "./button/Button";
 import { useImageContext } from "../contexts/ImageContext";
 import { getImageById } from "../services/ImageService";
 

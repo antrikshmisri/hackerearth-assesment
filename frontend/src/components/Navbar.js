@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiOutlineSearch } from "react-icons/ai";
 import { AiFillFileImage } from "react-icons/ai";
-import Input from "./Input";
+import Input from "./input/Input";
 
 const Navbar = () => {
   return (

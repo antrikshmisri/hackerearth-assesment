@@ -6,7 +6,6 @@ const Input = ({
   value,
   placeholder,
   onChange,
-  onPaste,
   required,
   label,
   keyPressCallback = () => {},
