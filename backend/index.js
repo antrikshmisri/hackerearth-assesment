@@ -11,7 +11,7 @@ app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "../frontend/build")));
 
 mongoose
-  .connect("mongodb://localhost:27017/imagedb", { useNewUrlParser: true })
+  .connect(process.env.DATABASE_URI, { useNewUrlParser: true })
   .then(() => {
     console.log("Mongo connection successful");
   })
