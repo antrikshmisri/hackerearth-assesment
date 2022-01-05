@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js --ignore client",
+    "dev": "nodemon backend/index.js --ignore frontend",
     "build": "webpack",
     "seed": "node backend/seeds.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "author": "antriksh misri",
   "license": "ISC",
